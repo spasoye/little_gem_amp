@@ -345,4 +345,41 @@ F 3 "~" H 5100 4650 50  0001 C CNN
 	1    5100 4650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5F4A2F4F
+P 2750 2150
+F 0 "J2" H 2642 1825 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2642 1916 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 2750 2150 50  0001 C CNN
+F 3 "~" H 2750 2150 50  0001 C CNN
+	1    2750 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR012
+U 1 1 5F4A8CE8
+P 2950 1850
+F 0 "#PWR012" H 2950 1700 50  0001 C CNN
+F 1 "+9V" H 2965 2023 50  0000 C CNN
+F 2 "" H 2950 1850 50  0001 C CNN
+F 3 "" H 2950 1850 50  0001 C CNN
+	1    2950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5F4A9618
+P 2950 2350
+F 0 "#PWR013" H 2950 2100 50  0001 C CNN
+F 1 "GND" H 2955 2177 50  0000 C CNN
+F 2 "" H 2950 2350 50  0001 C CNN
+F 3 "" H 2950 2350 50  0001 C CNN
+	1    2950 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2050 2950 1850
+Wire Wire Line
+	2950 2150 2950 2350
 $EndSCHEMATC
