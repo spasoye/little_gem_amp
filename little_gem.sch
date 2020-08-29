@@ -96,7 +96,7 @@ U 1 1 5EF07295
 P 6650 4250
 F 0 "VOLUME1" H 6580 4296 50  0000 R CNN
 F 1 "25" H 6580 4205 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 6650 4250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6650 4250 50  0001 C CNN
 F 3 "~" H 6650 4250 50  0001 C CNN
 	1    6650 4250
 	1    0    0    -1  
@@ -340,7 +340,7 @@ U 1 1 5EF0806F
 P 5100 4650
 F 0 "GAIN1" H 5030 4696 50  0000 R CNN
 F 1 "5k" H 5030 4605 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 5100 4650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5100 4650 50  0001 C CNN
 F 3 "~" H 5100 4650 50  0001 C CNN
 	1    5100 4650
 	1    0    0    -1  
