@@ -138,7 +138,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3550 4700 3800
 Wire Wire Line
-	3800 3550 3800 3800
+	3800 3650 3800 3900
 Wire Wire Line
 	4450 3200 4450 3050
 Wire Wire Line
@@ -249,12 +249,12 @@ $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5EF4EC5F
-P 3800 3550
-F 0 "#PWR01" H 3800 3300 50  0001 C CNN
-F 1 "GND" H 3805 3377 50  0000 C CNN
-F 2 "" H 3800 3550 50  0001 C CNN
-F 3 "" H 3800 3550 50  0001 C CNN
-	1    3800 3550
+P 3800 3650
+F 0 "#PWR01" H 3800 3400 50  0001 C CNN
+F 1 "GND" H 3805 3477 50  0000 C CNN
+F 2 "" H 3800 3650 50  0001 C CNN
+F 3 "" H 3800 3650 50  0001 C CNN
+	1    3800 3650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -302,23 +302,12 @@ F 3 "" H 4300 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioPlug2 J1
-U 1 1 5EF095AF
-P 3200 3900
-F 0 "J1" H 3257 4267 50  0000 C CNN
-F 1 "AudioPlug2" H 3257 4176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical_LittleGem" H 3550 3850 50  0001 C CNN
-F 3 "~" H 3550 3850 50  0001 C CNN
-	1    3200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Speaker LS1
 U 1 1 5EF184C9
 P 7200 4350
 F 0 "LS1" H 7370 4346 50  0000 L CNN
 F 1 "Speaker" H 7370 4255 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 7200 4150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 4150 50  0001 C CNN
 F 3 "~" H 7190 4300 50  0001 C CNN
 	1    7200 4350
 	1    0    0    1   
@@ -382,4 +371,15 @@ Wire Wire Line
 	2950 2050 2950 1850
 Wire Wire Line
 	2950 2150 2950 2350
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5F4FF7F7
+P 3600 3900
+F 0 "J1" H 3492 3575 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 3492 3666 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3600 3900 50  0001 C CNN
+F 3 "~" H 3600 3900 50  0001 C CNN
+	1    3600 3900
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

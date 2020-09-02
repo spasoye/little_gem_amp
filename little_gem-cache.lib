@@ -27,27 +27,6 @@ X GAIN 8 100 -300 250 U 50 20 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Connector_AudioPlug2
-#
-DEF Connector_AudioPlug2 J 0 20 Y Y 1 F N
-F0 "J" 400 250 50 H V C CNN
-F1 "Connector_AudioPlug2" 400 -250 50 H V C CNN
-F2 "" 350 -50 50 H I C CNN
-F3 "" 350 -50 50 H I C CNN
-$FPLIST
- Plug*
-$ENDFPLIST
-DRAW
-T 0 150 0 50 0 0 0 S Normal 0 C C
-T 0 -350 0 50 0 0 0 T Normal 0 C C
-S -150 150 350 -150 0 1 10 f
-S 500 200 350 -200 0 1 10 f
-P 11 0 1 10 -150 150 -200 150 -250 100 -400 150 -500 50 -500 -50 -400 -150 -250 -100 -200 -150 -150 -150 -150 150 f
-X ~ S 600 100 100 L 50 50 1 1 P
-X ~ T 600 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Conn_01x02_Female
 #
 DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
