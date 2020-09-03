@@ -117,8 +117,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 3900 6650 4100
 Wire Wire Line
-	6800 4250 7000 4250
-Wire Wire Line
 	5700 4200 5700 4350
 Wire Wire Line
 	5100 4200 5100 4350
@@ -148,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4950 6650 4400
 Wire Wire Line
-	7000 4350 7000 4950
+	7000 4650 7000 4950
 Wire Wire Line
 	5000 2450 5000 2750
 $Comp
@@ -304,12 +302,12 @@ $EndComp
 $Comp
 L Device:Speaker LS1
 U 1 1 5EF184C9
-P 7200 4350
-F 0 "LS1" H 7370 4346 50  0000 L CNN
-F 1 "Speaker" H 7370 4255 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 4150 50  0001 C CNN
-F 3 "~" H 7190 4300 50  0001 C CNN
-	1    7200 4350
+P 8050 3600
+F 0 "LS1" H 8220 3596 50  0000 L CNN
+F 1 "Speaker" H 8220 3505 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8050 3400 50  0001 C CNN
+F 3 "~" H 8040 3550 50  0001 C CNN
+	1    8050 3600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -426,4 +424,50 @@ F 3 "" H 5950 3250 50  0001 C CNN
 	1    5950 3250
 	1    0    0    -1  
 $EndComp
+$Comp
+L 3_5mm:SJ1-3525N J3
+U 1 1 5F513EAD
+P 8350 4450
+F 0 "J3" H 7920 4404 50  0000 R CNN
+F 1 "SJ1-3525N" H 7920 4495 50  0000 R CNN
+F 2 "CUI_SJ1-3525N" H 8350 4450 50  0001 L BNN
+F 3 "Manufacturer recommendation" H 8350 4450 50  0001 L BNN
+F 4 "CUI" H 8350 4450 50  0001 L BNN "Field4"
+F 5 "1.02" H 8350 4450 50  0001 L BNN "Field5"
+	1    8350 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 4650 7750 4650
+Wire Wire Line
+	6800 4250 7000 4250
+Wire Wire Line
+	7750 4550 7000 4550
+Wire Wire Line
+	7000 4550 7000 4250
+Connection ~ 7000 4250
+Wire Wire Line
+	7000 4250 7750 4250
+Wire Wire Line
+	7850 3500 7350 3500
+Wire Wire Line
+	7350 3500 7350 4450
+Wire Wire Line
+	7350 4450 7750 4450
+$Comp
+L power:GND #PWR0101
+U 1 1 5F537EBA
+P 7600 3850
+F 0 "#PWR0101" H 7600 3600 50  0001 C CNN
+F 1 "GND" H 7605 3677 50  0000 C CNN
+F 2 "" H 7600 3850 50  0001 C CNN
+F 3 "" H 7600 3850 50  0001 C CNN
+	1    7600 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3850 7600 3600
+Wire Wire Line
+	7600 3600 7850 3600
+NoConn ~ 7750 4350
 $EndSCHEMATC
